@@ -74,7 +74,11 @@ public class Program {
         #endregion
 
         #region State Design Pattern
-        new OrderSeeding().Seeding();
+        // new OrderSeeding().Seeding();
+        #endregion
+
+        #region Command Basics design pattern
+        new CommandBasicsSeeding().Seeding();
         #endregion
         
 
