@@ -1,6 +1,6 @@
 public class AddProductCommand : ICommand
 {
-    private OrderC _order;
+    public  OrderC _order{get;set;}
     private ProductC _product;
 
     public AddProductCommand(OrderC order, ProductC product) {
