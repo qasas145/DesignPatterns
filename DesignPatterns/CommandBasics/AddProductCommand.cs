@@ -11,4 +11,9 @@ public class AddProductCommand : ICommand
     {
         _order.AddOrder(_product);
     }
+
+    public void Undo()
+    {
+        _order.RemoveAtIndex(_order.OrderLines.Count()-1);
+    }
 }

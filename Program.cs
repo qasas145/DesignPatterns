@@ -82,7 +82,11 @@ public class Program {
         #endregion
 
         #region Command Macros
-        new CommandMacrosSeeding().Seeding();
+        // new CommandMacrosSeeding().Seeding();
+        #endregion
+
+        #region Command Undo Redo 
+        new CommandUndoRedoSeeding().Seeding();
         #endregion
         
 

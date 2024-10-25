@@ -11,4 +11,9 @@ public class AddStockCommand : ICommand
     {
         _product.AddStock(_stock);
     }
+
+    public void Undo()
+    {
+        _product.AddStock(_stock*-1);
+    }
 }
