@@ -20,10 +20,7 @@ public class CommandUndoRedoSeeding {
         Console.Write(" : ");
 
         while(true) {
-
-            
             var productCId = int.Parse(Console.ReadLine());
-
             if(productCId == 0){
                 var totalPrice = order.OrderLines.Sum(o=>o.Quantity*o.UnitPrice);
                 var totalQuantities = order.OrderLines.Count();
