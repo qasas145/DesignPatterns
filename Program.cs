@@ -86,7 +86,11 @@ public class Program {
         #endregion
 
         #region Command Undo Redo 
-        new CommandUndoRedoSeeding().Seeding();
+        // new CommandUndoRedoSeeding().Seeding();
+        #endregion
+
+        #region Memento 
+        new MementoSeeding().Seeding();
         #endregion
         
 
