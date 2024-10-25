@@ -78,7 +78,11 @@ public class Program {
         #endregion
 
         #region Command Basics design pattern
-        new CommandBasicsSeeding().Seeding();
+        // new CommandBasicsSeeding().Seeding();
+        #endregion
+
+        #region Command Macros
+        new CommandMacrosSeeding().Seeding();
         #endregion
         
 
