@@ -90,7 +90,11 @@ public class Program {
         #endregion
 
         #region Memento 
-        new MementoSeeding().Seeding();
+        // new MementoSeeding().Seeding();
+        #endregion
+
+        #region Builder
+        new BuilderSeeding().Seeding();
         #endregion
         
 
