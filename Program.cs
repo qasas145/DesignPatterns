@@ -94,10 +94,12 @@ public class Program {
         #endregion
 
         #region Builder
-        new BuilderSeeding().Seeding();
+        // new BuilderSeeding().Seeding();
         #endregion
         
-
+        #region Decorator(Wrapper)
+        new DecoratorSeeding().Seeding();
+        #endregion
         
     }
 }
