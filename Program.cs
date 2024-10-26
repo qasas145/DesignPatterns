@@ -98,7 +98,11 @@ public class Program {
         #endregion
         
         #region Decorator(Wrapper)
-        new DecoratorSeeding().Seeding();
+        // new DecoratorSeeding().Seeding();
+        #endregion
+
+        #region Chain of responsibilities
+        new ChainOfResponsibilitySeeding().Seeding();
         #endregion
         
     }
